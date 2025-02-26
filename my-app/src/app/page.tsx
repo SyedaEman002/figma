@@ -1,12 +1,11 @@
 import Image from "next/image";
-import Footer from "./footer"
 import React from "react";
   export default function Home(){
   return (
     <div className="h-screen bg-slate-50">
     <header className="bg-white shadow">
       <div className=" container mx-auto px-6 py-4 flex justify-between items-center">
-        <Image src="/ddsgnrimage.jpg" alt="ddsgnr" width={130.6} height={16}></Image>
+        <Image src="/ddsgnrimage.jpg" alt="ddsgnr" width={130.6} height={16} />
         <nav className="flex space-x-20">
         <button className=" px-6 py-4 space-x-12 ">
           <a className="text-slate-950 hover:text-red-500">Home</a>
@@ -76,7 +75,7 @@ import React from "react";
                 <div className="grid grid-cols-1 md:grid-cols-3 shadow-lg gap-8 rounded-lg">
                 
             <div className="bg-slate-50 rounded-lg shadow-lg overflow-hidden">
-              <img src="/firstimage.jpg" alt="firstimage" className="w-full h-64 object-cover" />
+              <Image src="/firstimage.jpg" alt="firstimage" className="w-full h-64 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-slate-950">UX/UI Design 201</h3>
                 <p className="text-slate-950">Lorem ipsum dolor sit amet, consectetur adipiscing<br /> elit. Suspendisse varius enim in eros.</p>
@@ -85,7 +84,7 @@ import React from "react";
             </div>
             
             <div className="bg-slate-50 rounded-lg shadow-lg overflow-hidden">
-              <img src="/secondimage.jpg" alt="secondimage" className="w-full h-64 object-cover" />
+              <Image src="/secondimage.jpg" alt="secondimage" className="w-full h-64 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-slate-950">Introduction to Python</h3>
                 <p className="text-slate-950">Lorem ipsum dolor sit amet, consectetur adipiscing<br /> elit. Suspendisse varius enim in eros.</p>
@@ -94,7 +93,7 @@ import React from "react";
             </div>
           
             <div className="bg-slate-50 rounded-lg shadow-lg overflow-hidden">
-              <img src="/thirdimage.jpg" alt="thirdimage" className="w-full h-64 object-cover" />
+              <Image src="/thirdimage.jpg" alt="thirdimage" className="w-full h-64 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-slate-950">Data Analysis for Beginners</h3>
                 <p className="text-slate-950">Lorem ipsum dolor sit amet, consectetur adipiscing<br /> elit. Suspendisse varius enim in eros.</p>
@@ -103,7 +102,7 @@ import React from "react";
             </div>
             
             <div className=" bg-slate-50 rounded-lg shadow-lg overflow-hidden">
-              <img src="/fourthimage.jpg" alt="fourthimage" className="w-full h-64 object-cover" />
+              <Image src="/fourthimage.jpg" alt="fourthimage" className="w-full h-64 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-slate-950">Art Specilization</h3>
                 <p className="text-slate-950">Lorem ipsum dolor sit amet, consectetur adipiscing<br /> elit. Suspendisse varius enim in eros.</p>
@@ -112,7 +111,7 @@ import React from "react";
               </div>
               
             <div className=" bg-slate-50 rounded-lg shadow-lg overflow-hidden">
-              <img src="/fifthimage.jpg" alt="fifthimage" className="w-full h-64 object-cover" />
+              <Image src="/fifthimage.jpg" alt="fifthimage" className="w-full h-64 object-cover" />
               <div className="p-4">
                 <h3 className="text-xl font-bold text-slate-950">Rule of law</h3>
                 <p className="text-slate-950">Lorem ipsum dolor sit amet, consectetur adipiscing <br />elit. Suspendisse varius enim in eros.</p>
@@ -120,7 +119,7 @@ import React from "react";
               </div>
                   </div>
                   <div className="bg-slate-50 rounded-lg shadow-lg overflow-hidden">
-                    <img src="/sixthimage.jpg" alt="sixthimage" className="w-full h-64 object-cover" />
+                    <Image src="/sixthimage.jpg" alt="sixthimage" className="w-full h-64 object-cover" />
                     <div className="p-4">
                       <h3 className="text-xl font-bold text-slate-950">Introduction to webflow</h3>
                       <p className="text-slate-950">Lorem ipsum dolor sit amet, consectetur adipiscing<br /> elit. Suspendisse varius enim in eros.</p>
